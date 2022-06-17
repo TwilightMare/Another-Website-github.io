@@ -1,22 +1,269 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" dir="ltr">
+  <head>
+
+  <html>
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-.bg {
-  background-image: url("https://i.postimg.cc/QxZhTSkL/Background-for-Website.png");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+body  {
+background-image:url("https://i.postimg.cc/QxZhTSkL/Background-for-  Website.png");
+background-repeat: no-repeat;
+background-size: cover;
 </style>
-</head>
-<body>
-<div class="bg"></div>
-</body>
+    <title>Learning HTML, Splash Page</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      /* div {border: thin dotted red;} */
+      .header {
+        /* border: 1px solid red; */
+        padding: 15px;
+        border: 1px solid red;
+      }
+
+      .column {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+
+      }
+
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+        /* border: 1px solid red; */
+      }
+      .main {
+        width: 35%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+        /* border: 1px solid red; */
+      }
+      .aside {
+        width: 15%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+        /* border: 1px solid red; */
+      }
+      .footer {
+        /* border: 1px solid red; */
+        padding: 1px;
+      }
+
+
+ .button {
+  border-radius: 20px;
+  background-color: #FF00FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 170px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.9s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.NEXTbutton {
+  border-radius: 20px;
+  background-color: #FF00FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 170px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 5px;
+}
+.NEXTbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.9s;
+}
+.NEXTbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.NEXTbutton:hover span {
+  padding-right: 25px;
+}
+.NEXTbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.NEXTNEXTbutton {
+  border-radius: 20px;
+  background-color: #FF00FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 170px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 5px;
+}
+.NEXTNEXTbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.9s;
+}
+.NEXTNEXTbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.NEXTNEXTbutton:hover span {
+  padding-right: 25px;
+}
+.NEXTNEXTbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.NEXTNEXT3button {
+  border-radius: 20px;
+  background-color: #FF00FF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  width: 170px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 5px;
+}
+.NEXTNEXT3button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.9s;
+}
+.NEXTNEXT3button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.NEXTNEXT3button:hover span {
+  padding-right: 25px;
+}
+.NEXTNEXT3button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+</style>
+
+
+  </head>
+
+  <body>
+    <div class="header">
+      <p><h1 style="font-size:1vw">Learning HTML, Example Splash Page</p>
+    </div>
+
+    <div class="column">
+    <p>Does it work</p>
+    </div>
+
+    <div class="menu">
+      <nav><h3>Navigation with no viewport in h3</h3></nav>
+    </div>
+    <div class="main">
+      <section>
+        <h3 style="font-size:2.5vw">Section 1</h3>
+
+        <a style="font-size:1vw"> Notice all Semantic Tags have Responsive Web Design Except NAV and ASIDE.</a>
+        <br><a style="font-size:1vw">This will come later after 3-column Flex-Box Example is provided,
+
+        <br>
+        <article>
+
+          </ul>
+          <br>
+        </article>
+      </section>
+    </div>
+
+
+   <div class="aside">
+
+     <br><br><br><br><br><br>
+ <button class="button"><span>Hover </span></button>
+ <button class="NEXTbutton"> <span>Hover</span></button>
+ <button class="NEXTNEXTbutton"> <span>Hover</span></button>
+ <button class="NEXTNEXT3button"> <span>Hover</span></button>
+
+    </div>
+  </body>
+
+  <footer class="footer">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br>      <!-- Date Accessed 20201120-->
+    </blockquote>
+
+
+ <p style="font-size:1vw">
+     <strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
+
+    </p>
+    <p style="font-size:1vw">&copy Annanya Matharu, powered by TwilightMare in GitHub</p>
+
+  </footer>
+
 </html>
