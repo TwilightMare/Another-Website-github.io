@@ -47,7 +47,7 @@ body, html {
 
 
 .Space2-image {
-  background-image:  url("https://img.freepik.com/free-vector/space-background-with-landscape-planet_107791-797.jpg?w=1380&t=st=1655497940~exp=1655498540~hmac=81911bc25c8a26ca6c3f49a3e6923a5d105609cd5c20c0b710760c96a002b5f3");
+  background-image:  url("https://i.postimg.cc/pdxdMQg3/4-Z-2101-w017-n001-333-A-p30-333.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,6 +124,68 @@ body, html {
         /* border: 1px solid red; */
         padding: 1px;
       }
+
+
+
+  //
+
+  .column2 {
+        width: 35%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+
+      }
+
+      .menu2 {
+        width: 35%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+        /* border: 1px solid red; */
+      }
+      .main2 {
+        width: 30%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+        /* border: 1px solid red; */
+      }
+      .aside2 {
+        width: 100%;
+        float: left;
+        padding: 0px;
+        border: 1px solid red;
+        /* border: 1px solid red; */
+      }
+      .footer2 {
+        /* border: 1px solid red; */
+        padding: 1px;
+      }
+
+
+  //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -236,6 +298,52 @@ body, html {
   height: 100%;
 }
 
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+  .popup .popuptext {
+  visibility: hidden;  width: 160px; background-color: #555; color: #fff;
+  text-align:center; border-radius: 6px; padding: 8px 0; position: absolute;
+  z-index: 1; bottom: 125%;
+  left: 50%; margin-left: -80px;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+
+
 #Home {background-color: #4169E1;}
 #News {background-color: #4166F5;}
 </style>
@@ -244,12 +352,18 @@ body, html {
 <button class="tablink" onclick="openPage('Home', this, '#4169E1')">Exoplanets</button>
 <button class="tablink" onclick="openPage('News', this, '#4166F5')" id="defaultOpen">Stars</button>
 
+<script>
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 
 <div id="Home" class="tabcontent">
 
 <div class="myDIV">
 
-<div class="popup" onclick="myFunction()"><h3>Exoplanets</h3>
+<div class="popup" onclick="myFunction()"><h3>Exoplanets<sub>   (Click me)</sub></h3>
   <span class="popuptext" id="myPopup">Exoplanets are planets located outside of our solar system!</span>
 </div>
 </div>
@@ -282,6 +396,13 @@ document.getElementById("defaultOpen").click();
 
     <div class="menu">
       <nav></nav>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+
     </div>
     <div class="main">
       <section>
@@ -292,50 +413,53 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 
 </div>
 
-
-<br><br>
-
 <iframe width="250" height="150" align="left" padding-bottom=0px left=40px src="https://www.youtube.com/embed/9PaMx5oxfv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
         <br>
         <article>
-
-          </ul>
           <br>
-        </article>
-      </section>
-    </div>
+
 
 
 <div class="aside">
 
+
+<div class="Space2-image">
+<div class="Space2-text">
+    <h1 style="font-size:50px">Telescopes</h1>
+    <p>A Revolution</p>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br>
+<br>
+  </div>
+</div>
+
 <br>
 <br>
 <br>
-
-
-
-
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 
 </div>
 
-  </div>
+</div>
 
-  <br>
-  <br>
+
+
+
+<br>
+<br>
 
 
 
   <footer class="footer">
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>	<br><br>
-    <br><br><br><br><br><br><br><br><br><br><br>      <!-- Date Accessed 20201120-->
-
-
-
+    <br><br><br><br><br><br><br><br><br><br><br>
 
     <p style="font-size:1vw">&copy Annanya Matharu, powered by TwilightMare in GitHub</p>
 
