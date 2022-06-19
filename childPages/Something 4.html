@@ -135,7 +135,7 @@ body, html {
        .NEXTaside {
         width: 100%;
         float: left;
-        padding: 0px;
+        padding: 15px;
         border: 1px solid red;
         /* border: 1px solid red; */
       }
@@ -162,6 +162,16 @@ body, html {
         border: 1px solid red;
         /* border: 1px solid red; */
       }
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  Center: right;
+  color: white;
+}
 
 
   //
@@ -421,15 +431,22 @@ document.getElementById("defaultOpen").click();
   background-color: #00008b;
 }
 </style>
-</head>
 <body>
 
 
 <button class="collapsible"><strong>Facts</strong></button>
 <div class="content">
-  <p>Facts That Nightmare is hot</p>
-  <li> He's a sexy bitch</li>
-  <br>
+  <p>Random/Interesting facts about Space</p>
+  <p>Hover over some sentences for extra info on a topic</p>
+  <li>Time Slows down significantly around/in a blackhole </li>
+  <div class="myDIV"><li>The Universe spans over 150 light years</li></div>
+  <div class="hide"><h4>Light Years is the distance light travels in 1 year (9.4607 × 10^12 km --> Almost 3 trillion miles)</h4></div>
+
+  <li>Neptune and Uranus rain Diamonds </li>
+  <div class="myDIV"><li>There might be such thing as a Donut Planet</li></div>
+  <div class="hide"><h4>A Donut Planet can Theoretically exist. It's shaped as a donut where gravity, light, temperature and means of living would vastly differ(Extreme weather etc.) from that of Earth.</h4></div>
+
+  <br><br><br><br><br><br>
 </div>
 
       <script>
@@ -450,8 +467,6 @@ for (i = 0; i < coll.length; i++) {
 </script>
 
 
-<br><br><br><br>
-<br><br><br><br>
 
 
     </div>
@@ -505,7 +520,7 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 
 
 <div class = "NEXTaside">
-<h5>Additionally with Space, Stars and Exoplanets, none of this would've been possible to see without the revolutionary device of a telescope.</h5>
+<h5>	Additionally with Space, Stars and Exoplanets, none of this would've been possible to see without the revolutionary device of a telescope.</h5>
 </div>
 <br>
 <br>
