@@ -9,7 +9,7 @@ background-image:url("https://i.postimg.cc/QxZhTSkL/Background-for-  Website.png
 background-repeat: no-repeat;
 background-size: cover;
 </style>
-    <title>Learning HTML, Splash Page</title>
+    <title>My Website</title>
 
     <style>
       * {
@@ -18,37 +18,89 @@ background-size: cover;
       /* div {border: thin dotted red;} */
       .header {
         /* border: 1px solid red; */
-        padding: 15px;
-        border: 1px solid red;
+        padding: 10px;
       }
 
       .column {
-        width: 25%;
+        width: 30%;
         float: left;
         padding: 15px;
-        border: 1px solid red;
 
       }
 
       .menu {
-        width: 25%;
+        width: 35%;
         float: left;
         padding: 15px;
-        border: 1px solid red;
         /* border: 1px solid red; */
       }
+
+
+.filler{
+width: 30%;
+        float: left;
+        padding: 15px;
+}
+
+
+.filler2{
+width: 30%;
+float: left;
+padding: 15px;
+}
+
+
+.filler3{
+width: 10%;
+float: left;
+padding: 15px;
+
+}
+
+
+.websitetext{
+width: 40%;
+float: left;
+padding: 15px;
+border: 1px solid white;
+
+}
+
+
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF, 0 0 60px #fff, 0 0 70px #FFFFFF;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #FFFFFF, 0 0 70px #FFFFFF, 0 0 80px #FFFFFF;
+  }
+}
+
       .main {
         width: 35%;
         float: left;
         padding: 15px;
-        border: 1px solid red;
         /* border: 1px solid red; */
       }
+
+
       .aside {
         width: 15%;
         float: left;
         padding: 15px;
-        border: 1px solid red;
         /* border: 1px solid red; */
       }
       .footer {
@@ -122,7 +174,7 @@ background-size: cover;
   transition: 0.5s;
 }
 .NEXTbutton:hover span {
-  padding-right: 25px;
+  padding-right: 15px;
 }
 .NEXTbutton:hover span:after {
   opacity: 1;
@@ -201,9 +253,18 @@ background-size: cover;
   right: 0;
 }
 
+.MoreDivs{
+width: 15%;
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+}
 
 
 
+body{
+color: white;
+}
 
 
 
@@ -212,45 +273,60 @@ background-size: cover;
 
   </head>
 
+
   <body>
     <div class="header">
-      <p><h1 style="font-size:1vw">Learning HTML, Example Splash Page</p>
+
+      <p><h1 style="font-size:1vw">This website will include Certain things about me(Not alot due to privacy) and My interests(to make up for the info) </p>
     </div>
 
-    <div class="column">
-    <p>Does it work</p>
-    </div>
-
-    <div class="menu">
-      <nav><h3>Navigation with no viewport in h3</h3></nav>
-    </div>
-    <div class="main">
-      <section>
-        <h3 style="font-size:2.5vw">Section 1</h3>
-
-        <a style="font-size:1vw"> Notice all Semantic Tags have Responsive Web Design Except NAV and ASIDE.</a>
-        <br><a style="font-size:1vw">This will come later after 3-column Flex-Box Example is provided,
-
-        <br>
         <article>
 
-          </ul>
           <br>
-        </article>
-      </section>
-    </div>
+       <div class= "main">  </div>
+        <div class= "main">  </div>
+         <div class= "main">  </div>
+          <div class= "main">  </div>
+           <div class= "main">  </div>
+      <div class= "main">  </div>
+       <div class= "main">  </div>
+        <div class= "main">  </div>
+         <div class= "main">  </div>
+
+
+
+ <div class= "main">  </div>
+ <div class= "filler"> </div>
 
 
    <div class="aside">
 
-     <br><br><br><br><br><br>
- <button class="button"><span>Hover </span></button>
- <button class="NEXTbutton"> <span>Hover</span></button>
- <button class="NEXTNEXTbutton"> <span>Hover</span></button>
- <button class="NEXTNEXT3button"> <span>Hover</span></button>
+
+ <button class="button"><span> Abt. Me </span></button>
+ <button class="NEXTbutton"> <span>Games</span></button>
+ <button class="NEXTNEXTbutton"> <span>Space</span></button>
+ <button class="NEXTNEXT3button"> <span>Career</span></button>
+
+
+
 
     </div>
-  </body>
+     <div class= "filler2"> </div>
+ <div class= "filler2"> </div>
+  <div class= "filler2"> </div>
+   <div class= "filler2"> </div>
+    <div class= "filler2"> </div>
+     <div class= "filler2"> </div>
+      <div class= "filler3"> </div>
+      <div class= "filler3"> </div>
+      <div class= "filler3"><p>To the left are some links which lead to other sections of my Website  </p> </div>
+      <div class= "filler3"> </div>
+<div class = "websitetext" >
+<h1 class="glow" style= "font-size: 3.5vw;">Welcome to My Website!</h1>
+
+</div>
+
+
 
   <footer class="footer">
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -259,9 +335,12 @@ background-size: cover;
 
 
  <p style="font-size:1vw">
-     <strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
+     <strong>“You never fail until you stop trying."  <i> --Albert Einstein </i></strong>
 
     </p>
+
+
+
     <p style="font-size:1vw">&copy Annanya Matharu, powered by TwilightMare in GitHub</p>
 
   </footer>
