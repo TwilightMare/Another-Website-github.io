@@ -95,6 +95,13 @@ img {vertical-align: middle;}
 }
 
 
+
+
+
+
+
+
+
 .collapsible {
   background-color: #00008B;
   color: white;
@@ -168,6 +175,25 @@ img {vertical-align: middle;}
     border: 1px solid red;
 
     }
+
+    .YTTDHeader{
+    width:100%
+    float: left;
+    padding: 0px;
+    border: 1px solid red;
+
+    }
+
+
+  body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
@@ -200,6 +226,46 @@ body, html {
   height: 100%;
 }
 
+
+
+
+.YTTD-image {
+  background-image:  url("https://cutewallpaper.org/22/yttd-wallpapers/1612216902.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.YTTD-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.YTTD-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Space2-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
 #Home {background-color: black;}
 #News {background-color: black;}
 #Contact {background-color: black;}
@@ -226,9 +292,9 @@ body, html {
 
 <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Overview</button>
 
-<button class="tablink" onclick="openPage('News', this, 'balck')">Storyline</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('News', this, 'red')">Storyline</button>
+<button class="tablink" onclick="openPage('Contact', this, 'red')">GamePlay</button>
+<button class="tablink" onclick="openPage('About', this, 'green')">Extra</button>
 
 <div id="Home" class="tabcontent">
   <div class="slideshow-container">
@@ -276,7 +342,9 @@ body, html {
      <button class="collapsible">Videos</button>
 <div class="content">
   <div class="video">
-<iframe width="220" height="150" align="left" padding-bottom=0px left=40px src="https://www.youtube.com/embed/mSWL0GBf-TM"
+<iframe width="220" height="150" align="left" padding-bottom=0px left=40px src="https://www.youtube.com/embed/T9-SJ6ikuj0"
+
+
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="220" height="150" align="left" padding-bottom=0px left=40px src="https://www.youtube.com/embed/wEkFm20QLiA"
@@ -292,9 +360,9 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 
      <div class = "NEXTSIDE">
      <h2>Intro</h2>
-<p>"When I left you, I was but the learner - Darth Vader/Anakin SkyWalker"</p>
+<p>"May the Force be with you" <i>- Literally every Jedi to ever exist</i></p>
 <p>Star Wars full of it's complexity is an interesting storyline to partake in, whether watching the movies, reading, or games released in regards to it. </p>
-<br><br>
+<br>
 
 <h2>BATTLEFRONT II</h2>
 <br>
@@ -322,6 +390,7 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 
 <div id="News" class="tabcontent">
   <h3>News</h3>
+
   <p>Some news this fine day!</p>
 </div>
 
@@ -338,8 +407,32 @@ frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; pict
 
 
 <div class= "NEXTCOLUMN" >
+<div class="YTTD-image">
+<div class="YTTD-text">
+    <h1 style="font-size:50px">YTTD</h1>
+    <p>Death Game By Majority</p>
+</div>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+
+
+
  <img src="https://shortcut-test2.s3.amazonaws.com/uploads/project/attachment/76795/default_pfp.png" alt="Star Wars" width="165" height="150">
 <br> </div>
+
+
+
+
+<div class= "YTTDHeader"> <h3>DNAWKENAKWE</h3>
+
+<div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 
 <script>
@@ -356,8 +449,6 @@ function openPage(pageName,elmnt,color) {
   document.getElementById(pageName).style.display = "block";
   elmnt.style.backgroundColor = color;
 }
-
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
 
@@ -409,6 +500,11 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 </script>
+
+
+
+
+
    </div>
 </body>
 </html>
